@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.footwrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(0, 2, 143);
+    color: white;
+    font-size: 0.9rem;
+    padding: 2rem 0 4.5rem 3rem;
+}
+
+.footwrapper ul li{
+    list-style-type: none;
+    margin: 0.3rem 0;
+}
+.footwrapper ul a{
+    color: white;
+    text-decoration: none;
+}
+.logo img{
+    width: 2rem;
+}
+.ipbox{
+    margin-top: 0.7rem;
+    padding: 0.7rem 2rem 0.7rem 1rem;
+    background-color: transparent;
+    border: 1px solid white ;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: white;
+}
+::placeholder { 
+    color:white;
+    opacity: 1;
+}
+.email button{
+    margin-left: 2rem;
+    padding: 0.7rem 1.3rem;
+    border: 2px solid rgb(77, 77, 77) ;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.address p{
+    margin: 0.2rem 0;
+}
+.logo{
+    margin: 2rem 2rem 0 0;
+}
+.website{
+    display: block;
+    margin-top: 2.5rem;
+    font-size: 0.8rem;
+}
+.website a{
+    text-decoration: none;
+    color: white;
+}
+.address{
+    margin: 0 2rem 0 10rem;
+    font-size: 0.8rem;
+}
+.email{
+    margin: 0 2rem;
+}
+.links{
+    margin: 0 2rem;
+}
+.social{
+    margin: 0 2rem;
+}
+/*Responsiveness: For Tablets */
+@media screen and (min-width: 500px) and (max-width: 1250px){
+    .footwrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        padding: 1rem 0 4.5rem 1rem;
+    }
+    .address{
+        margin: 0 1rem 0 2rem;
+    }
+}
+
+/*Responsiveness: For Smartphones */
+@media screen and (max-width: 420px){
+    .footwrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        padding: 1rem 0 2rem 0rem;
+    }
+    .logo{
+        margin: 1rem 0;
+    }
+    .logo img{
+        width: 1.8rem;
+    }
+    .address{
+        margin: 1rem 0; 
+    }
+    .website{
+        display: block;
+        margin-top: 0.3rem;
+        font-size: 0.8rem;
+    }
+    .email{
+        margin: 1rem 0; 
+    }
+    .links{
+        margin: 1rem 0; 
+        text-align: center;
+    }
+    .social{
+        margin: 1rem 0; 
+    }
+    .email button{
+        margin-left: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+    .ipbox{
+        margin-top: 0.7rem;
+        padding: 0.5rem 1.5rem 0.5rem 1rem;
+    }
+}
