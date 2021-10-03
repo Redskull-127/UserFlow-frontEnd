@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import PhotoSelection from '../../Components/PhotoSection/PhotoSelection';
 const Home = () => {
     return (
         <div>
-            Home
+            <PhotoSelection heading = "Photo Selection"  imageFolderText="Malli's Marriage Folder" mehandiText="Malli's Mehendhi "/>
         </div>
     )
 }
