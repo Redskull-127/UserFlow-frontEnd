@@ -4,14 +4,15 @@ import HomePage from './Pages/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import NotfoundPage from './Pages/NotfoundPage/NotfoundPage'
-import ImageSlider from './Components/ImageSlider/imageSlider';
+import Carousel from './Components/ImageSlider/carousel'
+
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/slider" component={ImageSlider} />
+        <Route exact path="/slider" component={Carousel} />
         <Route component={NotfoundPage} />
       </Switch>
       <Footer />
