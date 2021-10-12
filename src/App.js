@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/slider" component={Carousel} />
         <Route component={NotfoundPage} />
       </Switch>
       <Footer />
