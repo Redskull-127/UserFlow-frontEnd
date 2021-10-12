@@ -4,8 +4,6 @@ import HomePage from './Pages/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import NotfoundPage from './Pages/NotfoundPage/NotfoundPage'
-import Carousel from './Components/ImageSlider/carousel'
-
 function App() {
   return (
     <Router>
