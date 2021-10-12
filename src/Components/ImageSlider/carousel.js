@@ -29,7 +29,6 @@ const MyCarousel = () => {
             items: 1,
         }
     };
-    // let activeindex = reference.current.state.currentSlide
 
     // const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     //     const { carouselState: { currentSlide } } = rest;
