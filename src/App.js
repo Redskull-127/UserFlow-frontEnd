@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import NotfoundPage from './Pages/NotfoundPage/NotfoundPage'
 import Thanks from './Components/Thanku_popup/Thanku';
+import Carousel from './Components/ImageSlider/carousel'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/slider" component={Carousel} />
         <Route component={NotfoundPage} />
       </Switch>
       <Footer />
