@@ -1,16 +1,16 @@
 import React from 'react'
 import styles from './Thanku.module.css'
 import x from './icons/x-mark-32.png'
-const Thanks = () => {
+const Thanks = (props) => {
     return (
         <div className={styles.boxWrapper}>
             <div className={styles.box}>
-                <img className={styles.cross} src={x} alt="cross-icon"/>
+                <img className={styles.cross} onClick={props.handleClose} src={x} alt="cross-icon" />
                 <p className={styles.msg}>Thank You</p>
                 <label htmlFor="" > Reference Link</label>
                 <form action="submit" method="POST">
                     <input className={styles.txtip} type="text" />
-                    <button type="submit">Done</button>
+                    <button onClick={props.handleClose}>Done</button>
                 </form>
             </div>
         </div>
