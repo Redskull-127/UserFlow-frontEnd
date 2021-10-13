@@ -17,7 +17,7 @@ function App() {
         <Route component={NotfoundPage} />
       </Switch>
       <Footer />
-      <Thanks />
+
     </Router>
   );
 }
