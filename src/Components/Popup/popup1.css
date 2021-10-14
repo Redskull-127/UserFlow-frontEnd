@@ -1,0 +1,10 @@
+.bold-text {
+    font-weight: bold;
+    color: rgba(104, 104, 104, 0.973);
+}
+
+.my-heading
+{
+    text-align: center; 
+    margin-bottom: 15px;
+}
