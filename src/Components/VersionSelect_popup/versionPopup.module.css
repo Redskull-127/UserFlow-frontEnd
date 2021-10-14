@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.boxWrapper{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+}
+
+.box{
+  width: 30rem;
+  height: 19rem;
+  border-radius: .5rem;
+  box-shadow: 2px 3px 5px rgb(172, 172, 172)
+}
+
+.cross{
+  width: 12px;
+  float: right;
+  margin-top: 1.8rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0rem;
+  cursor: pointer;
+}
+
+.msg{
+  color: rgb(66, 77, 66);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 2.8rem 1rem 1rem 1rem;
+  text-align: center;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.box label{
+  display: block;
+  margin: 3rem 1rem 0 1.5rem;
+  font-size: .8rem;
+  color: rgb(77, 76, 76);
+}
+
+.txtip{
+  display: block; 
+  padding: .7rem;
+  margin: .8rem auto;
+  width:90%;
+  border: 1px solid rgb(118, 118, 118);
+  padding-right: 2rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 12px;
+  background-position-x: 97%;
+}
+
+.box button{
+  display: block;
+  padding: .3rem 1.5rem;
+  margin: 2.8rem auto;
+  color: white;
+  background-color: rgb(6, 155, 255);
+  border: none;
+  border-radius: 2px;
+  font-size: .8rem;
+  font-weight: 700;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+}
+
+/* Responsiveness for mobile phones */
+@media only screen and (max-width: 500px) {
+  .box{
+    width: 80%;
+    height: 16rem;
+    margin:2rem;
+  }
+  .cross{
+    width: 12px;
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+  }
+  .msg{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem .8rem .8rem .8rem;
+  }
+  .txtip{
+    display: block; 
+    padding: .7rem;
+    margin: .5rem auto;
+    width:85%;
+  }
+  .box label{
+    display: block;
+    margin: 2.3rem 1rem 0 2rem;
+  }
+  .box button{
+    display: block;
+    padding: .3rem 1.2rem;
+    margin: 2.3rem auto;
+  }
+}
