@@ -1,17 +1,27 @@
 import React from 'react'
 import styles from './versionPopup.module.css'
 import x from './x-mark-32.png'
-const Version = () => {
+const Version = (props) => {
     return (
         <div className={styles.boxWrapper}>
             <div className={styles.box}>
-                <img className={styles.cross} src={x} alt="cross-icon"/>
+                <img className={styles.cross} src={x} onClick={props.handleClose} alt="cross-icon"/>
                 <p className={styles.msg}>Select what type of pictures you want</p>
-                <label htmlFor="" > Reference Link</label>
-                <form action="submit" method="POST">
-                    <input className={styles.txtip} type="text" />
-                    <button type="submit">Done</button>
-                </form>
+                <div className={styles.checkboxElements}>
+                    <div className={styles.checkboxOut}>
+                    <span>Compressed version</span>
+                    <input type="checkbox" className={styles.checkboxBox}/>
+                    </div>
+                    <div className={styles.checkboxOut}>
+                    <span>Original version</span>
+                    <input type="checkbox" className={styles.checkboxBox}/>
+                    </div>
+                
+                </div>
+                
+                
+                    <button onClick={props.handleClose}>Submit</button>
+                
             </div>
         </div>
     )
