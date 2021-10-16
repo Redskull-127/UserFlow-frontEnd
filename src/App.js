@@ -8,6 +8,7 @@ import Thanks from './Components/Thanku_popup/Thanku';
 import Carousel from './Components/ImageSlider/carousel'
 import Version from './Components/VersionSelect_popup/version_popup';
 
+
 function App() {
   return (
     <Router>
@@ -20,7 +21,7 @@ function App() {
       <Footer />
       <Thanks />
       <Version />
-
+      
     </Router>
   );
 }
