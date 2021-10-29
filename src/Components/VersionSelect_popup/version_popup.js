@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './versionPopup.module.css'
-import x from './x-mark-32.png'
-const Version = (props) => {
+import x from '../Thanku_popup/icons/x-mark-32.png'
+const VersionPop = (props) => {
     return (
         <div className={styles.boxWrapper}>
             <div className={styles.box}>
@@ -27,4 +27,5 @@ const Version = (props) => {
     )
 }
 
-export default Version
+export default VersionPop
+

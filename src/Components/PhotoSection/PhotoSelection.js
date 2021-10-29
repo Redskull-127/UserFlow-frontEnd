@@ -13,7 +13,7 @@ export default function PhotoSection(props) {
                     <div className="headingSection">
                         <a href="/"><FaArrowLeft/></a>
                         <h1 className="headingPhotoSection">{props.heading}</h1>
-                        </div>
+                    </div>
                     <div className="photoSectionButtons">
                         <button><FaGripVertical/> Grid View <FaChevronDown/></button>
                         <button>Previrew</button>
