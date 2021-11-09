@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Rakesh,Banglore",
+        "notification":"Rakesh submitted selected photos",
+        "time":"2 hrs"
+    },
+    {
+        "id":2,
+        "name":"Nalini,Banglore",
+        "notification":"You generated link has been sent succefully",
+        "time":"3 hrs"
+    },
+    {
+        "id":3,
+        "name":"Photoshooto,Management",
+        "notification":"Thank you for the payment",
+        "time":"12 hrs"
+    },
+    {
+        "id":4,
+        "name":"Photoshooto,Management",
+        "notification":"You plan is getting end within a week please renewal",
+        "time":"1 day"
+    }
+]

@@ -6,7 +6,6 @@ import Footer from './Components/Footer/Footer'
 import NotfoundPage from './Pages/NotfoundPage/NotfoundPage'
 import Thanks from './Components/Thanku_popup/Thanku';
 import Carousel from './Components/ImageSlider/carousel'
-import Version from './Components/VersionSelect_popup/version_popup';
 
 
 function App() {
@@ -20,8 +19,6 @@ function App() {
       </Switch>
       <Footer />
       <Thanks />
-      <Version />
-      
     </Router>
   );
 }
